@@ -36,10 +36,11 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#F9D923]"></span>
             </h4>
             <ul className="space-y-3 text-gray-400">
-              <li>Mysuru - Ooty Rd, Thandavapura, Kochanahalli, </li>
-              <li>Karnataka 571302</li>
-              <li>+1 (555) 123-4567</li>
-              <li>info@lemonrestaurant.com</li>
+              <li>#464/2, Mysore-Ooty  highway, Next to M.I.T College Thandavpura, </li>
+              <li> Mysore District - 571302</li>
+              <li>+91 78999 99682</li>
+              <li>0821-2001887</li>
+              <li>Lemonfinedine@gmail.com</li>
             </ul>
           </div>
           

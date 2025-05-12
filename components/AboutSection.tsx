@@ -17,7 +17,7 @@ const AboutSection = () => {
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-8 -right-8 bg-[#F9D923] p-6 rounded-sm shadow-lg">
+            <div className="absolute -bottom-8 right-0 bg-[#F9D923] p-6 rounded-sm shadow-lg">
               <div className="text-black text-center">
                 <p className="text-lg font-bold">LEMON</p>
                 <p className="text-sm uppercase tracking-wider">Fine Dine Restaurant</p>

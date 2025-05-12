@@ -1,10 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
-
+import Logo from '../public/assets/logo.jpeg'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -41,8 +42,13 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-semibold">
-          <span className="text-[#F9D923]">LEMON</span>
-        
+          {/* <span className="text-[#F9D923]">LEMON</span> */}
+        <Image
+                        src={Logo.src}
+                        alt="Lemon Logo"
+                        fill
+                        className="object-cover max-w-[32%] md:max-w-[15%] md:h-[70%] lg:max-w-[10%] lg:h-[90%]"
+                      />
         </Link>
 
         {/* Desktop Navigation */}
@@ -63,7 +69,7 @@ const Navbar = () => {
             href="#reservation" 
             className="px-6 py-2 bg-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923]/90 transition-colors"
           >
-            Reserve
+            Contact
           </Link>
         </div>
 
@@ -95,7 +101,7 @@ const Navbar = () => {
               className="px-6 py-2 bg-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923]/90 transition-colors w-full text-center"
               onClick={() => setIsOpen(false)}
             >
-              Reserve
+              Contact
             </Link>
           </div>
         </div>

@@ -58,7 +58,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-black mb-1">Location</h4>
-                  <p className="text-gray-600">Mysuru - Ooty Rd, Thandavapura, Kochanahalli, Karnataka 571302</p>
+                  <p className="text-gray-600">#464/2, Mysore-Ooty  highway, Next to M.I.T College Thandavpura, Mysore District - 571302</p>
                 </div>
               </div>
               
@@ -68,7 +68,12 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-black mb-1">Call Us</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <Link href="tel:+917899999682">
+                  <p className="text-gray-600">+91 78999 99682</p>
+                  </Link>
+                  <Link href="tel:+918212001887">
+                  <p className="text-gray-600">0821-2001887</p>
+                  </Link>
                 </div>
               </div>
               
@@ -78,7 +83,9 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-black mb-1">Email</h4>
-                  <p className="text-gray-600">reservations@lemonrestaurant.com</p>
+                  <Link href="mailto:lemonfinedine@gmail.com">
+                  <p className="text-gray-600">Lemonfinedine@gmail.com</p>
+                  </Link>
                 </div>
               </div>
               
@@ -273,7 +280,7 @@ const ContactSection = () => {
                   Reserve Table
                 </button>
               </form> */}
-              <Link href={`https://wa.me/919742421946?text=${encodeURIComponent("Hi I am interested to know more about your services")}`} target="_blank">
+              <Link href={`https://wa.me/917899999682?text=${encodeURIComponent("Hi I am interested to know more about your services")}`} target="_blank">
                 <button
                  
                   className="w-full bg-[#F9D923] text-black py-3 px-6 rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923]/90 transition-colors focus:outline-none focus:ring-2 focus:ring-[#F9D923] focus:ring-offset-2"

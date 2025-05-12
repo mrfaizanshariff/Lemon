@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
 type Cuisine = 'Indian' | 'Chinese' | 'Continental' | 'Tandoor';
 
@@ -181,11 +182,17 @@ const MenuSection = () => {
         </div>
 
         {/* View Full Menu Button */}
-        {/* <div className="text-center mt-12">
+        <div className="text-center mt-12">
           <button className="px-8 py-3 border-2 border-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923] transition-colors">
-            View Full Menu
+            <Link href="https://drive.google.com/uc?export=download&id=19Cf3Aw3Y_BjU8fOICZ-_KVkuNOJ9SUuC"
+              download
+              target='_blank'
+              rel="noopener noreferrer"
+            >
+            Download Full Menu
+            </Link>
           </button>
-        </div> */}
+        </div>
       </div>
     </section>
   );

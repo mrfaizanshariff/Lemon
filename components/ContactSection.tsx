@@ -71,7 +71,7 @@ const ContactSection = () => {
                   <Link href="tel:+917899999682">
                   <p className="text-gray-600">+91 78999 99682</p>
                   </Link>
-                  <Link href="tel:+918212001887">
+                  <Link href="tel:08212001887">
                   <p className="text-gray-600">0821-2001887</p>
                   </Link>
                 </div>
@@ -96,8 +96,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-bold text-black mb-1">Hours</h4>
                   <p className="text-gray-600">
-                    Monday - Friday: 11:00 AM - 10:00 PM<br />
-                    Saturday - Sunday: 10:00 AM - 11:00 PM
+                    All Days: 11:00 AM - 11:00 PM
                   </p>
                 </div>
               </div>

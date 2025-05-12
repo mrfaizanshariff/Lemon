@@ -52,13 +52,10 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <span className="text-white">Monday - Friday:</span><br />
-                11:00 AM - 10:00 PM
+                <span className="text-white">All Days:</span><br />
+                11:00 AM - 11:00 PM
               </li>
-              <li>
-                <span className="text-white">Saturday - Sunday:</span><br />
-                10:00 AM - 11:00 PM
-              </li>
+             
              
             </ul>
           </div>

@@ -87,6 +87,12 @@
   }
 }
 
+body{
+  @media screen and (max-width:405px) {
+    width: 108% !important;
+  }
+}
+
 .font-display {
   font-family: var(--font-playfair);
 }

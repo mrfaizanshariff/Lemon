@@ -66,10 +66,10 @@ const Navbar = () => {
         
         <div className="hidden md:block">
           <Link 
-            href="#reservation" 
+            href={`https://wa.me/917899999682?text=${encodeURIComponent("Hi I am interested to know more about your services")}`} target="_blank"
             className="px-6 py-2 bg-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923]/90 transition-colors"
           >
-            Contact
+            WhatsApp
           </Link>
         </div>
 
@@ -97,11 +97,11 @@ const Navbar = () => {
               </Link>
             ))}
             <Link 
-              href="#reservation" 
+              href={`https://wa.me/917899999682?text=${encodeURIComponent("Hi I am interested to know more about your services")}`} target="_blank"
               className="px-6 py-2 bg-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923]/90 transition-colors w-full text-center"
               onClick={() => setIsOpen(false)}
             >
-              Contact
+              WhatsApp
             </Link>
           </div>
         </div>

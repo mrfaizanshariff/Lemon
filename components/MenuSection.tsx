@@ -184,7 +184,7 @@ const MenuSection = () => {
         {/* View Full Menu Button */}
         <div className="text-center mt-12">
           <button className="px-8 py-3 border-2 border-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923] transition-colors">
-            <Link href="https://drive.google.com/uc?export=download&id=19Cf3Aw3Y_BjU8fOICZ-_KVkuNOJ9SUuC"
+            <Link href="https://drive.google.com/uc?export=download&id=1Qf7hyoGlFY3IHnEXG5hDmDSQJtylQPuT"
               download
               target='_blank'
               rel="noopener noreferrer"

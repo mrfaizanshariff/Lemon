@@ -103,7 +103,7 @@ const MenuSection = () => {
         name: 'Chicken Chatpatta',
         description: 'Spicy and tangy chicken cooked with bold Indian masalas for a zesty kick.',
         price: '280₹',
-        veg: true,
+        popular: true,
       },
       {
         name: 'Kalmi Kebab',

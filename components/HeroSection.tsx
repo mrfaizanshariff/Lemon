@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-
+import Img3 from '../public/assets/img3.jpeg'
 const HeroSection = () => {
   return (
     <section id="home" className="relative h-screen bg-black overflow-hidden">
@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "url('https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+          backgroundImage: `url(${Img3.src})`,
           filter: "brightness(0.4)"
         }}
       />

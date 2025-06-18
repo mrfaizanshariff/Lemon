@@ -53,7 +53,7 @@ const AboutSection = () => {
             
             <div className="border-l-4 border-[#F9D923] pl-4 italic text-gray-600 mb-8">
               "At LEMON, we believe that dining is not just about food, but about creating moments that last a lifetime."
-              <div className="mt-2 font-bold not-italic text-black">- Umez, Founder</div>
+              <div className="mt-2 font-bold not-italic text-black">- Founder</div>
             </div>
             
             <div className="flex space-x-4">

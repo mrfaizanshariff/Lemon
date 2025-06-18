@@ -25,16 +25,15 @@ const MenuSection = () => {
   const menuItems: MenuItems = {
     Indian: [
       {
-        name: 'Chicken Mughlai',
-        description: 'A royal North Indian dish with rich, creamy gravy and tender chicken pieces.',
-        price: '280₹',
-        popular: true,
-      },
-      {
         name: 'Zeera Rice',
         description: 'Fragrant basmati rice tempered with cumin seeds for a simple yet flavorful side.',
-        price: '280₹',
+        price: '180₹',
         veg: true,
+      },
+      {
+        name: 'Dum Biryani ',
+        description: 'Fragrant basmati rice cooked with tender meat and aromatic spices',
+        price: '280₹',
       },
       {
         name: 'Paneer Lababdar',
@@ -43,23 +42,18 @@ const MenuSection = () => {
         veg: true,
       },
       {
-        name: 'Mutton Dum Biryani ',
-        description: 'Fragrant basmati rice cooked with tender lamb and aromatic spices',
-        price: '360₹',
+        name: 'Chicken Shahi Mughlai',
+        description: 'A royal North Indian dish with rich, creamy gravy and tender chicken pieces.',
+        price: '300₹',
+        popular: true,
       },
     ],
     Chinese: [
       {
         name: 'Butter Garlic Fried Rice/Noodles',
         description: 'A fusion of noodles tossed with butter, garlic, and fragrant stir-fry flavors.',
-        price: '260₹',
+        price: '200₹',
         popular: true,
-      },
-      {
-        name: 'Korean Fish',
-        description: 'Crispy fish fillets glazed in sweet, spicy Korean-style sauce.',
-        price: '180₹',
-        veg: true,
       },
       {
         name: 'Chilly Chicken',
@@ -69,16 +63,26 @@ const MenuSection = () => {
       {
         name: 'Paneer Chilly',
         description: 'Cottage cheese stir-fried with peppers and onions in a tangy, spicy sauce.',
-        price: '180₹',
+        price: '220₹',
         veg: true,
+      },
+      {
+        name: 'Fish Butter Garlic',
+        description: 'Indo-Chinese favorite with crispy fish tossed in butter and garlic.',
+        price: '300₹',
       },
     ],
     Continental: [
       {
         name: 'Crispy Cheese Burger',
         description: 'A crunchy, golden patty stacked in a bun with fresh toppings and sauces.',
-        price: '150₹',
+        price: '180₹',
         popular: true,
+      },
+      {
+        name: 'Alfredo Pasta',
+        description: 'Creamy Italian pasta in a rich Alfredo sauce with cheese and herbs.',
+        price: '280₹',
       },
       {
         name: 'Pizza Margherita',
@@ -86,35 +90,30 @@ const MenuSection = () => {
         price: '340₹',
         veg: true,
       },
-      {
-        name: 'Alfredo Pasta',
-        description: 'Creamy Italian pasta in a rich Alfredo sauce with cheese and herbs.',
-        price: '300₹',
-      },
     ],
     Tandoor: [
       {
-        name: 'Tandoori Chicken Platter',
+        name: 'Paneer Tikka',
+        description: 'Marinated paneer cubes grilled to perfection with smoky spices and veggies.',
+        price: '260₹',
+        veg: true,
+      },
+      {
+        name: 'Tandoori Chicken',
         description: ' A hearty assortment of flavorful chicken prepared in various mouthwatering styles.',
-        price: '280₹ - Half',
+        price: '320₹ - Half',
         popular: true,
       },
       {
-        name: 'Chicken Chatpatta',
+        name: 'Chicken Malai/Chatpatta',
         description: 'Spicy and tangy chicken cooked with bold Indian masalas for a zesty kick.',
-        price: '280₹',
+        price: '320₹',
         popular: true,
       },
       {
         name: 'Kalmi Kebab',
         description: 'Juicy chicken drumsticks marinated in creamy spices and slow-cooked till tender.',
-        price: '380₹',
-      },
-      {
-        name: 'Tandoori Paneer Tikka',
-        description: 'Marinated paneer cubes grilled to perfection with smoky spices and veggies.',
-        price: '280₹',
-        veg: true,
+        price: '320₹',
       },
     ],
   };
@@ -180,11 +179,11 @@ const MenuSection = () => {
             </motion.div>
           ))}
         </div>
-
+        
         {/* View Full Menu Button */}
         <div className="text-center mt-12">
           <button className="px-8 py-3 border-2 border-[#F9D923] text-black rounded-sm uppercase text-sm tracking-wider hover:bg-[#F9D923] transition-colors">
-            <Link href="https://drive.google.com/uc?export=download&id=1Qf7hyoGlFY3IHnEXG5hDmDSQJtylQPuT"
+            <Link href="https://drive.google.com/uc?export=download&id=19s0H4oI_twg7AxWJ7Qpx75EaI4vQsPI6"
               download
               target='_blank'
               rel="noopener noreferrer"

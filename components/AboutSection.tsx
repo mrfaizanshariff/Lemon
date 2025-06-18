@@ -29,8 +29,10 @@ const AboutSection = () => {
           <div className="max-w-lg mx-auto lg:mx-0">
             <h2 className="text-sm text-[#4CAF50] uppercase tracking-wider mb-2">Our Story</h2>
             <h3 className="text-4xl font-bold mb-6 text-black">
-              Experience the Finest Culinary Traditions at <span className="text-[#F9D923]">LEMON</span>
+              Experience the Finest Culinary Traditions at <span className="text-[#F9D923]">LEMON </span>
+              along with Children's Play Area for you lovely toddlers 
             </h3>
+            
             
             <p className="text-gray-700 mb-8">
               A serene garden oasis awaits, where every dish tells a story. Savor the flavors of our diverse menu while surrounded by nature's beauty. 
